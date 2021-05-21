@@ -7,13 +7,29 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgNext"
+        android:id="@+id/imgNexta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/square" />
+        app:layout_constraintVertical_bias="0.744"
+        app:srcCompat="@drawable/square"
+        />
+
+    />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cover"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="152dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
